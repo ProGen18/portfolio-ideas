@@ -4,13 +4,13 @@
 ![Licence](https://img.shields.io/badge/licence-MIT-green)
 ![Config-driven](https://img.shields.io/badge/config--driven-config.ts-blueviolet)
 
-A growing collection of portfolio designs — built from scratch or redesigned from existing ones. Each template is wired to a single `config.ts` file so you can make it yours without touching the actual components.
+A growing collection of portfolio designs, built from scratch or redesigned from existing ones. Each template is wired to a single `config.ts` file so you can make it yours without touching the actual components.
 
 ---
 
 ## The idea
 
-Most portfolio templates either look the same or require you to dig through the whole codebase just to change your name and tech stack. These ones don't. Everything you'd want to edit — name, bio, links, projects, skills, colors — lives in one place.
+Most portfolio templates either look the same or require you to dig through the whole codebase just to change your name and tech stack. These ones don't. Everything you'd want to edit name, bio, links, projects, skills, colors — lives in one place.
 
 ---
 
@@ -62,7 +62,7 @@ That's it. No need to touch anything else.
 
 ## Contributing
 
-Found a design you'd like to see here, or built one yourself? PRs are welcome — just make sure the `config.ts` pattern is followed so it stays easy to reuse.
+Found a design you'd like to see here, or built one yourself? PRs are welcome just make sure the `config.ts` pattern is followed so it stays easy to reuse.
 
 ---
 
