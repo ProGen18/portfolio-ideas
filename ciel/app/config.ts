@@ -136,44 +136,45 @@ export const CONFIG = {
   workTimeline: [
     {
       point: new THREE.Vector3(0, 0, 0),
-      year: '2014',
-      title: 'IIT Roorkee',
-      subtitle: 'Electrical Engineering',
+      year: '20XX',
+      title: 'University Name',
+      subtitle: 'Degree / Major',
       position: 'right',
     },
     {
-      point: new THREE.Vector3(-4, -4, -3),
-      year: '2016',
-      title: 'XPrep',
-      subtitle: 'Frontend Intern',
+      point: new THREE.Vector3(-4, -4, -2),
+      year: '20XX',
+      title: 'Company Name',
+      subtitle: 'Role Title',
       position: 'left',
     },
     {
-      point: new THREE.Vector3(-3, -1, -6),
-      year: '2017',
-      title: 'Headout',
-      subtitle: 'Software Developer Intern',
+      point: new THREE.Vector3(-3, -1, -4),
+      year: '20XX',
+      title: 'Company Name',
+      subtitle: 'Role Title',
       position: 'left',
     },
     {
-      point: new THREE.Vector3(0, -1, -10),
-      year: '2018',
-      title: 'Cohesity',
-      subtitle: 'Member of Technical Staff',
+      point: new THREE.Vector3(0, -1, -6),
+      year: '20XX',
+      title: 'Company Name',
+      subtitle: 'Role Title',
       position: 'left',
     },
     {
-      point: new THREE.Vector3(1, 1, -12),
+      point: new THREE.Vector3(1, 1, -8),
       year: new Date().toLocaleDateString('default', { year: 'numeric' }),
       title: '?',
       subtitle: '???',
       position: 'right',
-    }, {
-      point: new THREE.Vector3(-2, 0, -15), // x=-2 (gauche), y=0 (centre), z=-15 (plus profond)
-      year: '2026',
-      title: 'Nouvelle Expérience',
-      subtitle: 'Mon nouveau rôle',
-      position: 'left', // Alterne entre 'left' et 'right' pour que le texte ne se superpose pas
+    },
+    {
+      point: new THREE.Vector3(-2, 0, -10),
+      year: '20XX',
+      title: 'Next Chapter',
+      subtitle: 'New Role',
+      position: 'left',
     }
 
   ] as WorkTimelinePoint[],
