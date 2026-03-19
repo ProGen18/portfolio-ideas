@@ -7,25 +7,25 @@
 export const CONFIG = {
   // ── Personal Identity ──────────────────────────────────────
   identity: {
-    firstName: "Prashant",
-    lastName: "Koirala",
-    fullName: "Prashant Koirala",
+    firstName: "Your First Name",
+    lastName: "Your Last Name",
+    fullName: "Your Full Name",
     /** Displayed in the navbar logo, e.g. "P ✦ K" */
-    logoText: "P ✦ K",
+    logoText: "X ✦ Y",
   },
 
   // ── SEO / Page Titles ──────────────────────────────────────
   seo: {
-    homeTitle: "Prashant Koirala | Portfolio",
-    contactTitle: "Contact | Prashant Koirala | Portfolio",
+    homeTitle: "Your Name | Portfolio",
+    contactTitle: "Contact | Your Name | Portfolio",
   },
 
   // ── Contact Information ────────────────────────────────────
   contact: {
-    email: "prashantkoirala465@gmail.com",
+    email: "your.email@example.com",
     twitter: {
-      handle: "@arkynox_",
-      url: "https://x.com/arkynox_",
+      handle: "@yourusername",
+      url: "https://x.com/yourusername",
     },
   },
 
@@ -33,34 +33,33 @@ export const CONFIG = {
   social: {
     github: {
       label: "Github",
-      url: "https://github.com/prashantkoirala465",
+      url: "https://github.com/yourusername",
     },
     linkedin: {
       label: "LinkedIn",
-      url: "https://www.linkedin.com/in/prashantkoirala/",
+      url: "https://www.linkedin.com/in/yourusername/",
     },
   },
 
   // ── Hero Section ───────────────────────────────────────────
   hero: {
-    resumeUrl:
-      "https://drive.google.com/file/d/1lhunYlVGdRqDiOsPf6xECVWj0x6tDbzR/view?usp=sharing",
+    resumeUrl: "https://your-resume-link.com",
   },
 
   // ── About Section ──────────────────────────────────────────
   about: {
-    bio: "I'm a designer and full-stack developer who's obsessed with creating award-worthy digital experiences. From crafting pixel-perfect interfaces to architecting robust backend systems, I live at the intersection where beautiful design meets clean code. My work draws inspiration from the best of Awwwards — those jaw-dropping sites that make you pause mid-scroll and wonder \"how did they do that?\"",
-    tagline: "Code / Design / Craft / Repeat",
+    bio: "Write your bio here. Describe your skills, passion, and what makes you unique as a developer and designer.",
+    tagline: "Design / Develop / Repeat",
     portraitSrc: "/images/services-header/portrait.jpeg",
   },
 
   // ── Featured Projects (scroll showcase) ───────────────────
   // Exactly 4 entries. imageIndex maps to /images/work-items/work-item-N.jpg
   featuredProjects: [
-    { title: "Triad Portfolio",   imageIndex: 1, url: "#" },
-    { title: "Pinnacle Urja",     imageIndex: 2, url: "#" },
-    { title: "Ocean Education",   imageIndex: 4, url: "#" },
-    { title: "Sign2Text",         imageIndex: 5, url: "#" },
+    { title: "Project One",   imageIndex: 1, url: "#" },
+    { title: "Project Two",   imageIndex: 2, url: "#" },
+    { title: "Project Three", imageIndex: 4, url: "#" },
+    { title: "Project Four",  imageIndex: 5, url: "#" },
   ],
 
   // ── Services (stacked cards section) ──────────────────────
@@ -79,12 +78,12 @@ export const CONFIG = {
 
   // ── Footer ─────────────────────────────────────────────────
   footer: {
-    copyright: "© - Prashant Koirala // 2025",
-    portfolioUrl: "https://www.prashantkoirala.info.np",
-    blogUrl: "https://prashantkoirala.hashnode.dev/",
+    copyright: "© - Your Name // 2025",
+    portfolioUrl: "https://your-portfolio-url.com",
+    blogUrl: "https://your-blog-url.com",
     twitter: {
       label: "Twitter",
-      url: "https://x.com/arkynox_",
+      url: "https://x.com/yourusername",
     },
   },
 
