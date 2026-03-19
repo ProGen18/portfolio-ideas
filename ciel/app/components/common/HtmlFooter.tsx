@@ -3,7 +3,6 @@
 import { usePortalStore, useScrollStore } from "@stores";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
-import { CONFIG } from "../../config";
 
 export const HtmlFooter = () => {
   const scrollProgress = useScrollStore((state) => state.scrollProgress);
@@ -38,7 +37,7 @@ export const HtmlFooter = () => {
       style={{ opacity: 0 }}
     >
       <p className="text-white/40 text-[10px] sm:text-[11px] font-medium tracking-widest text-center" style={{ fontFamily: 'var(--font-vercetti)' }}>
-        © {new Date().getFullYear()} — Conçu et maintenu par <a
+        © {new Date().getFullYear()} — Created by <a
           href="https://www.stephane-talab.fr"
           target="_blank"
           rel="noopener noreferrer"
@@ -46,7 +45,7 @@ export const HtmlFooter = () => {
           style={{ pointerEvents: visible ? 'auto' : 'none' }}
         >
           Stéphane TALAB
-        </a> pour {CONFIG.name}
+        </a>
       </p>
     </div>
   );
