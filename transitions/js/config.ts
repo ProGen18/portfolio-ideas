@@ -7,9 +7,9 @@
 export const CONFIG = {
   // ── Personal Identity ──────────────────────────────────────
   identity: {
-    firstName: "Your First Name",
-    lastName: "Your Last Name",
-    fullName: "Your Full Name",
+    firstName: "First Name",
+    lastName: "Last Name",
+    fullName: "First Name Last Name",
     /** Displayed in the navbar logo, e.g. "P ✦ K" */
     logoText: "X ✦ Y",
   },
@@ -56,10 +56,12 @@ export const CONFIG = {
   // ── Featured Projects (scroll showcase) ───────────────────
   // Exactly 4 entries. imageIndex maps to /images/work-items/work-item-N.jpg
   featuredProjects: [
-    { title: "Project One",   imageIndex: 1, url: "#" },
-    { title: "Project Two",   imageIndex: 2, url: "#" },
+    { title: "Project One", imageIndex: 1, url: "#" },
+    { title: "Project Two", imageIndex: 2, url: "#" },
     { title: "Project Three", imageIndex: 4, url: "#" },
-    { title: "Project Four",  imageIndex: 5, url: "#" },
+    { title: "Project Four", imageIndex: 5, url: "#" },
+    { title: "Project Five", imageIndex: 6, url: "#" },
+
   ],
 
   // ── Services (stacked cards section) ──────────────────────

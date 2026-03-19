@@ -170,12 +170,13 @@ export const CONFIG = {
       position: 'right',
     },
     {
-      point: new THREE.Vector3(-3, 0, -10),
+      point: new THREE.Vector3(-3, 0, -15),
       year: '20XX',
       title: 'Next Chapter',
       subtitle: 'New Role',
       position: 'left',
     }
+
 
   ] as WorkTimelinePoint[],
 };
