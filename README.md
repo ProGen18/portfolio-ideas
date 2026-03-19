@@ -54,6 +54,8 @@ That's it. No need to touch anything else.
 
 | Name | Stack | Status |
 |------|-------|--------|
+| ciel | TypeScript | ✅ Available |
+| transitions | TypeScript | ✅ Available |
 | *(coming soon)* | — | — |
 
 ---
