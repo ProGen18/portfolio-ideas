@@ -139,7 +139,7 @@ export const CONFIG = {
       year: '20XX',
       title: 'University Name',
       subtitle: 'Degree / Major',
-      position: 'right',
+      position: 'left',
     },
     {
       point: new THREE.Vector3(-4, -4, -2),
