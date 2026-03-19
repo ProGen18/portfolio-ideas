@@ -1,7 +1,7 @@
 {
-    "name": "prashant-koirala-portfolio",
+    "name": "portfolio-template",
     "version": "1.0.0",
-    "description": "Prashant Koirala's Portfolio",
+    "description": "A customizable web development portfolio template",
     "main": "index.js",
     "scripts": {
         "dev": "vite",
@@ -10,7 +10,7 @@
         "host": "vite --host"
     },
     "keywords": [],
-    "author": "Prashant Koirala",
+    "author": "Your Name",
     "license": "MIT",
     "dependencies": {
         "gsap": "^3.13.0",
